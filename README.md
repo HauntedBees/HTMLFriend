@@ -112,6 +112,8 @@ If **peopleListing.html** looks like this:
 
 You can see that with the ```{@yearOrYears}``` value up there, passing a function allows more flexibility than just a simple 1:1 mapping of template keys to table columns.
 
+Additionally, you can pass an integer variable by reference as the final argument and it will be populated with the number of rows that were processed.
+
 ## Why Not Combine Them?
 
 Of course, there's no reason you can't combine multiple templates! Mix and match!

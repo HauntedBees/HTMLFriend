@@ -25,10 +25,11 @@ class Template {
 		}
 		return $html;
 	}
-	public function GetPDOFetchAssocContent($table, $func, $args = []) {
+	public function GetPDOFetchAssocContent($table, $func, $args = [], &$count = NULL) {
 		$html = "";
 		while($row = $table->fetch(PDO::FETCH_ASSOC)) {
 			$html .= $this->GetLoopedContent($func($row, $args));
+			if($count !== NULL) { $count++; }
 		}
 		return $html;
 	}
