@@ -1,4 +1,8 @@
 # TemplateFriend - Easy HTML Templates in PHP
+
+## no
+This is deprecated. Also, you shouldn't use this. Just use a modern templating/frontend framework like [Vue.js](https://vuejs.org/).
+
 **TemplateFriend** is a PHP Class that lets you to keep your PHP and HTML separate until you need to combine them. 
 
 ## Setup
